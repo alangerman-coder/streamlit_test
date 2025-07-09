@@ -1,7 +1,9 @@
 import math
 
 def is_prime(n):
-
+    """
+    tiene toda la lógica principal
+    """
     if n <= 1:
         return False
     for i in range(2,int(math.sqrt(n) + 1)):
